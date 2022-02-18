@@ -22,7 +22,7 @@ int main() {
   float d,amount;
   
   printf("enter distance :");
-  scanf("%f",d);
+  scanf("%f",&d);
   
   if (d <= 30)
     amount = d * 30;
